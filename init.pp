@@ -1,7 +1,6 @@
 class homework {
         file {"/tmp/homework_file":
-                content {
-                        "Kotitehtävät on kivoja\n",
+                content => "Kotitehtävät on kivoja\n",
                 }
         }
 
